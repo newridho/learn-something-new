@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+
+body {
+	background-color: #ddd;
+	text-align: center;
+}
+
+header {
+	background-color: white;
+	font-size: 25px;
+	height: 50px;
+	font-family: arial;
+	line-height: 35px;
+	box-sizing: border-box;
+	text-align: center;
+	border: 5px solid;
+	width: 50%;
+	left: 200px;
+	top: -51px;
+	position: absolute;
+
+}
+
+.container {
+	width: 683px;
+	margin: 70px auto;
+	border: 10px solid black;
+	position: relative;
+}
+
+.thumbnail {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.thumb {
+	width: 50%;
+	border: 10px solid black;
+	box-sizing: border-box;
+}
+
+.jumbo {
+	margin: -1px 0;
+	border-bottom: 10px solid black
+}
+
+.thumb:after {
+	content: '';
+	clear: both;
+}
+
+.thumb:hover {
+	opacity: 0.5;
+}
+
+.logo {
+	position: absolute;
+	/*background-color: aqua;*/
+	height: 42%;
+	width: 66px;
+	display: flex;
+	flex-direction: column;
+	/*border: 5px solid black;*/
+	padding: 5px;
+	box-sizing: border-box;
+	right: -65px;
+	top: -15px;
+}
+
+.logo img {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+
+.logoT{
+	width: 75px;
+	height: 100%;
+	text-align: center;
+	border: 5px solid black;
+	padding-left: -15px;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fadeIn {
+	to {
+		opacity: 1;
+	}
+}
+
+.fade {
+	opacity: 0;
+	animation: fadeIn 0.5s forwards;
+}
+
+.active {
+	opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+

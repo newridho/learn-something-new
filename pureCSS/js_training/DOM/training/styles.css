@@ -1,0 +1,46 @@
+html, body {
+	height: 100%;
+}
+body {
+	text-align: center;
+	position: relative;
+}
+
+.teks4 {
+	font-family: 'Viga', sans-serif;
+	font-weight: normal;
+	color: black;
+	text-shadow: 0 0 10px #85FE9E,
+			 0 0 40px #85FE9E, 
+			 0 0 80px #07FB3A; 
+}
+.teks5 {
+	font-family: 'Viga', sans-serif;
+	font-weight: normal;
+	color: white;
+	text-shadow: 0 0 10px #07FBFB, 
+			 0 0 20px #07FBFB, 
+			 0 0 30px #07FBFB, 
+			 0 0 40px #A3F8F8, 
+			 0 0 70px #A3F8F8, 
+			 0 0 80px #A3F8F8, 
+			 0 0 100px #A3F8F8, 
+			 0 0 150px #A3F8F8;
+}
+
+.container {
+	margin: 110px auto;
+	width: 50%;
+	height: 100%;
+}
+
+.aqua { background-color: aqua; }
+.kotak {
+	width: 25px;
+	height: 25px;
+	margin: 10px auto;
+}
+.merah { background-color: red; }
+.hijau { background-color: green; }
+.biru { background-color: blue; }
+.last { position: absolute; bottom: 0; right: 0;}

@@ -1,0 +1,253 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */ 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Styles */
+
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: #e5e7e9;
+	color: #212f3d; 
+	background-image: url(img/walp.jpg);
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family: Script MT Bold;
+	text-align: center;
+	color: red;
+	text-shadow: 0px 3px 1px orange;
+}
+
+.top-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 45px;
+	background-color: red;
+	border-bottom: 5px solid white;
+	z-index: 999999;
+}
+.container {
+	width: 960px;
+	margin: 80px auto;
+	background-color: white;
+	position: relative;
+}
+
+.twitter {
+	width: 200px;
+	height: 200px;
+	background-image: url(img/twitter.png);
+	display: inline-block;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	top: -23px;
+	right: -28px;
+}
+
+.sidebar img:hover {
+	transform: rotate(180deg);
+	transition: 2s;
+}
+
+.header {
+	padding: 15px;
+	padding-bottom: 5px;
+}
+
+.header .judul {
+	font-size: 30px;
+	font-weight:  bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 25px;
+	margin-right: 10px;
+}
+
+.header a {
+	text-decoration: none;
+		color: orange;
+		padding: 3px;
+}
+
+.header a:hover {
+	background: lightblue;
+	color: white;
+}
+
+.hero {
+	height: 400px;
+	background-image: url(img/hero.jpg);
+	background-size: cover;
+	background-position: 0-0px;
+	border-top: 5px solid pink;
+	border-bottom: 5px solid pink;
+}
+
+.content {
+	padding-top: 5px;
+}
+
+.main {
+	width: 600px;
+	padding: 20px;
+	box-sizing: border-box
+;	float: left;
+}
+
+.main h2 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.main .penulis a {
+	text-decoration: none;
+	color: orange;
+}
+
+.main .penulis {
+	font-size: 12px;
+	margin: -5px;
+}
+
+.main p {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.sidebar {
+	width: 300px;
+	float: left;
+	padding: 20px;
+}
+
+.sidebar h1 {
+	font-weight: bold;
+	color: #666;
+}
+
+.sidebar p {
+	font: 14px/20px arial;
+}
+
+.sidebar img {	
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.about {
+	background-color: #333;
+	padding-left: 450px;
+	padding-right: 400px;
+}
+
+.about .isi1 {
+	color: white;
+	font-size: 13px;
+	float: left;
+	width: 250px;
+	height: 230px;
+	padding: 5px; 
+	position: relative;
+	box-sizing: border-box;
+}
+
+.about .isi2 {
+	color: white;
+	font-size: 13px;
+	float: right;
+	width: 250px;
+	height: 230px;
+	padding: 5px; 
+	position: relative;
+	box-sizing: border-box;
+}
+
+.footer {
+	background-color: #0e0d0d;
+	padding: 15px;
+
+}
+
+.footer .copy1 {
+	color: white;
+	font-size: 13px;
+	float: left;
+	padding-left: 450px;
+}
+
+.footer .copy2 {
+	color: white;
+	font-size: 13px;
+	float: right;
+	padding-right: 500px;
+}
+
+/* clearfix */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

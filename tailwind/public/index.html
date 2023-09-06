@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Tailwind</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/tailwindcss">
+        
+    </style>
+</head>
+<body class="dark:bg-slate-800 dark:text-slate-200">
+    <h1 class="text-5xl font-bold sm:flex justify-center">Belajsar euy</h1>
+
+    <section class="bg-pink-400 max-w-md my-20 mx-auto p-3 hover:bg-rose-500 transition ease-in duration-1000">
+        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aperiam recusandae adipisci, suscipit vero quae culpa voluptates? Libero, ullam eligendi!</p>
+    </section>
+
+    <section class="max-w-md mx-auto mb-20">
+        <h2 class="mb-2 text-4xl font-bold text-transparent bg-gradient-to-r from-yellow-600  to-red-500 bg-clip-text">What is Anime</h2>
+        <h6 class="mb-4 text-lg text-slate-400">By <span class="text-slate-600 font-semibold">Ridhoo</span>, 12-12-2012</h6>
+
+        <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, <a href="#" class="underline text-sky-500 hover:text-sky-700 hover:no-underline">praesentium</a> iste assumenda amet rem adipisci nemo quae! Dolore, eligendi dolor.</p>
+        <blockquote class="mb-4 italic font-thin text-lg">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, libero?"</blockquote>
+        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sit a harum quisquam mollitia odit debitis amet magnam consequuntur suscipit.</p>
+
+        <button type="button" class="text-white py-2 px-5 bg-sky-300 hover:bg-sky-500 rounded-lg dark:bg-slate-200 dark:text-slate-700 dark:hover:bg-slate-100 dark: hover:text-slate-800">Share</button>
+    </section>
+    
+    <hr class="bg-slate-700  border-t-4 my-20">
+ 
+    <div class="max-w-xl h-80 bg-slate-300 mt-8 mx-auto overflow-y-scroll bg-fixed bg-cover rounded-2xl shadow-xl shadow-orange-400/50" style="background-image: url(./images/chain.png);">
+        <p class="p-5 text-2xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit iure sit culpa facilis similique! Esse quas magnam cumque corporis quos. Magni pariatur laboriosam, neque iste expedita ea omnis quod, harum ut, velit amet. Laudantium saepe delectus doloremque nobis tempora nesciunt natus autem, recusandae nam corporis reiciendis nihil et quaerat inventore vero id, eligendi dolorum laboriosam? Culpa facere et minima dolores reiciendis neque error reprehenderit! Ipsum facere blanditiis architecto cum magni repellendus soluta voluptas accusantium velit sit, aperiam excepturi sequi, autem omnis? Nam laborum praesentium nihil, itaque esse exercitationem nesciunt hic magni illum libero animi expedita corporis eaque quasi quas distinctio nemo amet tempore impedit ex tenetur sint debitis? Reiciendis excepturi ipsa fugiat maxime? Recusandae nemo ducimus et voluptatum quia, facilis quos odit repellat rerum soluta. Ducimus rem aliquid veritatis minus natus libero necessitatibus eaque, eius velit porro accusamus ab corporis similique totam autem repellendus, sequi dolor aperiam quidem laboriosam vel!</p>
+    </div>
+    
+    <hr class="bg-slate-700  border-t-4 my-20">
+ 
+    <div class="flex justify-center mt-20">
+        <span class="text-sm text-slate-400 mr-2">light</span>
+        <input type="checkbox" id="toggle" class="hidden">
+        <label for="toggle">
+            <div class="w-9 h-5 bg-slate-500 rounded-full flex items-center p-1">
+                <div class="w-4 h-4 bg-white rounded-full toggle-c"></div>
+            </div>
+        </label>
+        <span class="text-sm text-slate-400 ml-2">dark</span>
+    </div>
+     
+    <hr class="bg-slate-700  border-t-4 my-20">   
+
+    <div class="max-w-xl h-80 bg-slate-300 mt-20 mx-auto bg-fixed bg-cover rounded-2xl shadow-xl shadow-orange-400/50 flex justify-center" style="background-image: url(./images/chain.png);">
+        <p class="p-5 text-6xl m-auto text-white">Scroll Saya euy</p>
+    </div>
+
+
+    <div class="max-w-xl flex h-80 bg-slate-300 mt-28 mx-auto bg-cover rounded-2xl shadow-xl shadow-orange-400/50 overflow-hidden blur-sm group hover:blur-none" style="background-image: url(./images/chain.png);">
+        <div class="w-full h-full bg-blue-400 mix-blend-multiply hover:hidden transition duration-250 ease-in-out">
+            <p class="m-auto hidden group-hover:block text-white text-6xl">Halo Cuyy</p>
+        </div>
+    </div>
+
+    <div class="mt-16 w-[500px] h-[250px] aspect-video  rounded-lg shadow-xl shadow-sky-400/50 overflow-hidden mx-auto group transition-all">
+        <div class="w-full h-full bg-[url(../images/chain.png)] bg-cover bg-center">
+            <div class="hidden w-full h-full bg-lime-300 bg-opacity-60 group-hover:flex group-hover:justify-center">
+                <p class="animate-fadeInDown text-xl text-center font-semibold self-center  text-red-600">Ohayouu</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- <button class="transition opacity-0 animate-fadeInDown block mt-16 bg-teal-300 py-5 px-10 rounded-lg mx-auto ">CLick</button> -->
+
+    <div class="max-w-xl mx-auto mt-24 py-8 bg-teal-300 flex flex-wrap justify-center items-center gap-9 transition-all">
+        <!-- <h1 class="text-2xl font-semibold text-slate-800 order-first">Test Animation | Transition</h1> -->
+        <a href="#" class="bg-red-300 py-4 px-8 rounded-lg animate-fadeInUp">Up</a>
+        <a href="#" class="bg-red-300 py-4 px-8 rounded-lg animate-fadeInDown">Down</a>
+        <a href="#" class="bg-red-300 py-4 px-8 rounded-lg animate-fadeInLeft">Left</a>
+        <a href="#" class="bg-red-300 py-4 px-8 rounded-lg animate-fadeInRight">Right</a>
+    </div>
+    
+    <hr class="bg-slate-700  border-t-4 my-20">
+
+    <div class="w-40 h-40 bg-orange-400 rounded-lg group mx-auto">
+        <div class="w-40 h-40 mt-32 bg-orange-400 rounded-lg shadow-lg mx-auto hover:scale-110 hover:translate-x-12"></div>
+    </div>
+
+    <div class="w-40 h-40 mt-32 bg-amber-400 rounded-lg shadow-lg mx-auto animate-spin-slow"></div>
+
+    <hr class="bg-slate-700  border-t-4 my-20">
+    
+    <div class="container mx-auto">
+        <div class="border rounded-lg shadow-lg p-8 relative">
+            <div class="w-10 h-10 bg-slate-400 rounded-full flex absolute -top-5 left-1/2 -translate-x-1/2"><span class="m-auto">😁</span></div>
+            <img src="./images/chain.png" alt="Ch" width="150" class="float-left mr-4">
+            <p class="selection:bg-rose-400 selection:text-white">Chainsawman, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque nobis in soluta labore esse quia, qui iure cupiditate laboriosam molestias ut doloremque? Veritatis obcaecati quaerat consequuntur earum at eaque, repellat, ut dolores eum nam sunt porro ipsum! Voluptatum sapiente, animi esse, debitis quasi, eius earum sunt aut dolorem exercitationem voluptatem.</p>
+        </div>
+    </div>
+    
+    <hr class="bg-slate-700  border-t-4 my-20">
+    
+    <div class="container max-w-md mx-auto px-8 sm:max-w-xl md:max-w-3xl lg:flex lg:max-w-full lg:p-0">
+        <div class="lg:p-10 lg:flex-1">
+            <h1 class="text-2xl sm:text-4xl max-w-md text-slate-800 font-semibold uppercase">Chain<span class="text-red-600 font-semibold">saw</span> Man</h1>
+            <img src="images/chain.png" alt="Anime" class="mt-6 rounded-xl shadow sm:object-cover sm:object-center lg:hidden">
+            <h2 class="mt-4 text-lg sm:text-2xl text-slate-800 font-semibold">Is anime Chainsaw Man a Masterpiece?</h2>
+            <p class="mt-3 text-slate-600 selection:bg-rose-400 selection:text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum quia nesciunt officia earum ea sint fugiat optio. Quod facere aspernatur corrupti optio.</p>
+            <div class="mt-4">
+                <a href="#" class="inline-block px-5 py-3 rounded-lg text-sm sm:text-lg font-semibold uppercase tracking-wider bg-slate-400">Read more ...</a>
+            </div>
+        </div>
+        <div class="hidden lg:flex lg:w-1/2">
+            <img src="images/chain.png" alt="Anime" class="object-cover rounded-l-lg">
+        </div>
+    </div>
+    
+    <hr class="bg-slate-700  border-t-4 my-20">
+
+    <div class="p-2 grid grid-cols-2 gap-3 md:grid-cols-4 md:p-4">
+        <h2 class="h-15 text-slate-700 font-bold text-xl md:col-start-4 md:row-start-1 flex"><span class="self-center mx-auto">Japanese</span></h2>
+        <div class="h-15 text-slate-600 font-semibold text-lg md:col-start-1 md:row-start-2 flex"><span class="self-end">@nippon</span></div>
+
+        <div class="h-15 bg-amber-600 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+            <div class="w-full h-full bg-[url('../images/11.jpg')] bg-cover bg-center absolute"></div>
+        </div>
+        <div class="h-15 bg-amber-600 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-3  overflow-hidden group relative hover:scale-95 transition-all duration-500">
+            <div class="w-full h-full bg-[url('../images/12.jpg')] bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500 group-hover:rotate-12"></div>
+        </div>
+        <div class="h-15 bg-amber-600 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-2  overflow-hidden group relative hover:scale-95 transition-all duration-500">
+            <div class="w-full h-full bg-[url('../images/13.jpg')] bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500 group-hover:rotate-12"></div>
+        </div>
+        <div class="h-15 bg-amber-600 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-4  overflow-hidden group relative hover:scale-95 transition-all duration-500">
+            <div class="w-full h-full bg-[url('../images/14.jpg')] bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500 group-hover:rotate-12"></div>
+        </div>
+        <div class="h-15 bg-amber-600 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3]  overflow-hidden group relative hover:scale-95 transition-all duration-500">
+            <div class="w-full h-full bg-[url('../images/15.jpg')] bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500 group-hover:rotate-12"></div>
+        </div>
+        <div class="h-15 bg-amber-600 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:row-start-3 md:col-start-4  overflow-hidden group relative hover:scale-95 transition-all duration-500">
+            <div class="w-full h-full bg-[url('../images/16.jpg')] bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500 group-hover:rotate-12"></div>
+        </div>
+        <div class="h-15 bg-amber-600 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:row-start-4 md:col-start-2  overflow-hidden group relative hover:scale-95 transition-all duration-500">
+            <div class="w-full h-full bg-[url('../images/17.jpg')] bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500 group-hover:rotate-12"></div>
+        </div>
+        <div class="h-15 bg-amber-600 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:row-start-4 md:col-start-3  overflow-hidden group relative hover:scale-95 transition-all duration-500">
+            <div class="w-full h-full bg-[url('../images/18.jpg')] bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500 group-hover:rotate-12"></div>
+        </div>
+
+    </div>
+
+    
+    <div class="mb-96"></div>  
+    
+    <script>
+        const checkbox = document.querySelector('#toggle');
+        const html = document.querySelector('html');
+
+        checkbox.addEventListener('click', function (){ 
+            // const html: HTMLHtmlElement
+            checkbox.checked ? html.classList.add('dark') : html.classList.remove('dark');
+        });
+        
+        // checkbox.addEventListener('click', function () {
+            //     html.classList.toggle('dark')
+            // })
+            </script>
+</body>
+</html>

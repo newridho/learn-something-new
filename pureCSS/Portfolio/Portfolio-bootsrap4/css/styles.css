@@ -1,0 +1,8 @@
+.jumbotron img {
+	border: 5px solid #eaeaea;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+section {
+	min-height: 420px;
+}
